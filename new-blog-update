@@ -1,0 +1,37 @@
+I've released a new blog update that I've been working on all of tonight!
+
+## Fixes
+* The "By: <name>" text is now aligned to the left along with the creation date.
+* When the share link copy button is clicked, a notification is displayed in the bottom-right corner.
+* The tagging system has been improved by creating separate models for them.
+* If an image doesn't have a banner, there is now a fallback banner.
+
+## Additions
+* Category tags which have a green-ish background.
+* Twitter and Facebook share buttons on each article.
+* Introducing Comments.
+* Simple profiles for users (front-end not done).
+
+![image](https://g.gflclan.com/4041-02-25-2022-CAFKhDfp.png)
+
+* Friendly URLs that'll improve search engine results and readability.
+
+## Back-End Changes
+* Added code for adding/modifying/ and deleting articles and comments.
+* Each text area that supports Markdown now has a column to the right that automatically converts the user's current input that is using Markdown to HTML. 
+
+## Other
+* Search Engine optimization applied via meta tags/Google.
+* Searching now includes title, description, and contents into search instead of just tags.
+
+## Things To Add/Improve On
+* Masonry seems to be breaking at times and not automatically fitting rows/columns correctly.
+* Improve comment style and find out why default PNG avatar is showing up as non-transparent.
+* Add support for strike-through text and YouTube videos via Markdown syntax.
+
+## Conclusion
+I am really happy I was able to implement these features and additions. It really helped me learn a lot about Django and it was also generally fun. My only problem was I stayed up until morning to get this done.
+
+Anyways, still a lot to do, but I'm really happy with the progress :)
+
+Ah, oh yeah, I have to add support for emojis like `:)`
